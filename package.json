@@ -1,4 +1,14 @@
-
-"scripts": {
-  "build:css": "tailwindcss -i ./css/input.css -o ./css/styles.css --watch"
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My professional portfolio",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./css/input.css -o ./css/styles.css --watch"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.0.0"
+  }
 }
