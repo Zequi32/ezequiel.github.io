@@ -3,34 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
     <title>Projects - My Portfolio</title>
-    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-blue-600 text-white py-4 shadow-md fixed w-full z-10">
+        <nav class="container mx-auto flex justify-between">
+            <ul class="flex space-x-4">
+                <li><a href="index.html" class="hover:text-yellow-300">Home</a></li>
+                <li><a href="about.html" class="hover:text-yellow-300">About</a></li>
+                <li><a href="projects.html" class="hover:text-yellow-300">Projects</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section id="projects">
-            <h1>My Projects</h1>
-            <div class="project">
-                <h2>Project Title 1</h2>
-                <p>Project description...</p>
-                <a href="https://github.com/Zequi32/ezequiel.github.io" target="_blank">View on GitHub</a>
+    <main class="container mx-auto mt-16 p-4">
+        <section id="projects" class="bg-white p-8 rounded-lg shadow-lg">
+            <h2 class="text-2xl font-bold">My Projects</h2>
+            <div class="mt-4">
+                <!-- Project 1 -->
+                <div class="project bg-gray-50 p-6 rounded-lg shadow-md mb-6">
+                    <h3 class="text-xl font-semibold">Project Title 1</h3>
+                    <p class="mt-2">Brief description of the project. <a href="#" class="text-blue-600 hover:underline">View Repository</a></p>
+                </div>
+                <!-- Project 2 -->
+                <div class="project bg-gray-50 p-6 rounded-lg shadow-md mb-6">
+                    <h3 class="text-xl font-semibold">Project Title 2</h3>
+                    <p class="mt-2">Brief description of the project. <a href="#" class="text-blue-600 hover:underline">View Repository</a></p>
+                </div>
+                <!-- Add more projects as needed -->
             </div>
-            <!-- Add more projects here -->
         </section>
     </main>
-    <footer>
-        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    <footer class="bg-blue-600 text-white text-center py-4 mt-16">
+        &copy; 2024 Your Name
     </footer>
 </body>
 </html>
-

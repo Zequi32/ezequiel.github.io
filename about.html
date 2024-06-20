@@ -3,37 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects - Ezequiel's Portfolio</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link href="css/styles.css" rel="stylesheet">
+    <title>About - My Portfolio</title>
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-blue-600 text-white py-4 shadow-md fixed w-full z-10">
+        <nav class="container mx-auto flex justify-between">
+            <ul class="flex space-x-4">
+                <li><a href="index.html" class="hover:text-yellow-300">Home</a></li>
+                <li><a href="about.html" class="hover:text-yellow-300">About</a></li>
+                <li><a href="projects.html" class="hover:text-yellow-300">Projects</a></li>
             </ul>
         </nav>
     </header>
-
-    <main>
-        <section id="projects">
-            <h2>My Projects</h2>
-            <div class="project">
-                <h3>Project 1</h3>
-                <p>Description of Project 1. <a href="https://github.com/Zequi32/ezequiel.github.io">View on GitHub</a> | <a href="https://yourproject1demo.com">Live Demo</a></p>
+    <main class="container mx-auto mt-16 p-4">
+        <section id="about" class="bg-white p-8 rounded-lg shadow-lg">
+            <h2 class="text-2xl font-bold">About Me</h2>
+            <p class="mt-4">Insert your bio here. Describe your background, skills, and what you're passionate about.</p>
+            <div class="video-container mt-8">
+                <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen class="w-full rounded-lg shadow-lg"></iframe>
             </div>
-            <div class="project">
-                <h3>Project 2</h3>
-                <p>Description of Project 2. <a href="https://github.com/Zequi32/ezequiel.github.io">View on GitHub</a> | <a href="https://yourproject2demo.com">Live Demo</a></p>
-            </div>
-            <!-- Add more projects as needed -->
         </section>
     </main>
-
-    <footer>
-        <p>&copy; 2024 Ezequiel's Portfolio</p>
+    <footer class="bg-blue-600 text-white text-center py-4 mt-16">
+        &copy; 2024 Your Name
     </footer>
 </body>
 </html>
