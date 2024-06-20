@@ -19,7 +19,7 @@ nav ul li a {
 }
 
 main {
-    @apply container mx-auto mt-20 p-4;
+    @apply container mx-auto mt-24 p-4;
 }
 
 footer {
