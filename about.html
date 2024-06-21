@@ -1,37 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="css/styles.css" rel="stylesheet">
-  <title>About - My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-100 text-gray-900 font-sans">
-  <header class="bg-blue-600 text-white py-4 shadow-md fixed w-full z-10">
-    <nav class="container mx-auto flex justify-between items-center px-4">
-      <div class="text-lg font-semibold">My Portfolio</div>
-      <ul class="flex space-x-4">
-        <li><a href="index.html" class="hover:text-yellow-300">Home</a></li>
-        <li><a href="about.html" class="hover:text-yellow-300">About</a></li>
-        <li><a href="projects.html" class="hover:text-yellow-300">Projects</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main class="container mx-auto mt-32 p-4">
-    <section id="about" class="bg-white p-8 rounded-lg shadow-lg flex flex-col lg:flex-row items-center">
-      <img src="path/to/your/image.jpg" alt="Your Image" class="w-48 h-48 rounded-full shadow-md mb-4 lg:mb-0 lg:mr-8">
-      <div>
-        <h2 class="text-3xl font-bold">About Me</h2>
-        <p class="mt-4 text-lg">Insert your bio here. Describe your background, skills, and what you're passionate about.</p>
-        <div class="video-container mt-8">
-          <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen class="w-full h-64 rounded-lg shadow-lg"></iframe>
+<body class="flex flex-col min-h-screen">
+    <header class="bg-white shadow-md py-4">
+        <nav class="container mx-auto flex justify-between items-center px-6">
+            <div class="text-lg font-bold">My Portfolio</div>
+            <ul class="flex space-x-6">
+                <li><a href="index.html" class="text-gray-800 hover:text-gray-600">Home</a></li>
+                <li><a href="about.html" class="text-gray-800 hover:text-gray-600">About</a></li>
+                <li><a href="projects.html" class="text-gray-800 hover:text-gray-600">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="flex-grow container mx-auto px-6 py-12">
+        <div class="flex flex-col lg:flex-row items-center">
+            <img src="your-image.jpg" alt="Profile Picture" class="w-40 h-40 rounded-full lg:w-60 lg:h-60 mb-6 lg:mb-0 lg:mr-8">
+            <div>
+                <h1 class="text-4xl font-bold mb-4">About Me</h1>
+                <p class="text-lg mb-4">I am a web developer with a passion for creating beautiful and functional websites...</p>
+                <!-- Add more about you -->
+            </div>
         </div>
-      </div>
-    </section>
-  </main>
-  <footer class="bg-blue-600 text-white text-center py-4 mt-16">
-    &copy; 2024 Your Name
-  </footer>
+    </main>
+    <footer class="bg-white shadow-inner py-4 mt-auto">
+        <div class="container mx-auto text-center text-gray-600">
+            &copy; 2024 Your Name
+        </div>
+    </footer>
 </body>
 </html>
-

@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="css/styles.css" rel="stylesheet">
-  <title>Home - My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f3f4f6;
+        }
+    </style>
 </head>
-<body class="bg-gray-100 text-gray-900 font-sans">
-  <header class="bg-blue-600 text-white py-4 shadow-md fixed w-full z-10">
-    <nav class="container mx-auto flex justify-between items-center px-4">
-      <div class="text-lg font-semibold">My Portfolio</div>
-      <ul class="flex space-x-4">
-        <li><a href="index.html" class="hover:text-yellow-300">Home</a></li>
-        <li><a href="about.html" class="hover:text-yellow-300">About</a></li>
-        <li><a href="projects.html" class="hover:text-yellow-300">Projects</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main class="container mx-auto mt-32 p-4">
-    <section id="hero" class="bg-gradient-to-r from-blue-500 to-teal-500 text-white text-center py-16 rounded-lg shadow-lg flex flex-col items-center">
-      <img src="path/to/your/image.jpg" alt="Your Image" class="w-32 h-32 rounded-full shadow-md mb-4">
-      <h1 class="text-5xl font-bold">Welcome to My Portfolio</h1>
-      <p class="mt-4 text-xl">Showcasing my skills, projects, and experience.</p>
-    </section>
-  </main>
-  <footer class="bg-blue-600 text-white text-center py-4 mt-16">
-    &copy; 2024 Your Name
-  </footer>
+<body class="flex flex-col min-h-screen">
+    <header class="bg-white shadow-md py-4">
+        <nav class="container mx-auto flex justify-between items-center px-6">
+            <div class="text-lg font-bold">My Portfolio</div>
+            <ul class="flex space-x-6">
+                <li><a href="index.html" class="text-gray-800 hover:text-gray-600">Home</a></li>
+                <li><a href="about.html" class="text-gray-800 hover:text-gray-600">About</a></li>
+                <li><a href="projects.html" class="text-gray-800 hover:text-gray-600">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="flex-grow container mx-auto px-6 py-12 flex flex-col items-center justify-center text-center">
+        <h1 class="text-5xl font-bold mb-4">Welcome to My Portfolio</h1>
+        <p class="text-xl mb-8">Showcasing my skills, projects, and experience.</p>
+        <img src="your-image.jpg" alt="Profile Picture" class="w-40 h-40 rounded-full mx-auto mb-8">
+    </main>
+    <footer class="bg-white shadow-inner py-4 mt-auto">
+        <div class="container mx-auto text-center text-gray-600">
+            &copy; 2024 Your Name
+        </div>
+    </footer>
 </body>
 </html>
