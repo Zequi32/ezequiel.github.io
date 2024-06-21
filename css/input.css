@@ -27,11 +27,15 @@ footer {
 }
 
 #hero {
-    @apply bg-gradient-to-r from-blue-500 to-teal-500 text-white text-center py-16 rounded-lg shadow-lg;
+    @apply bg-gradient-to-r from-blue-500 to-teal-500 text-white text-center py-16 rounded-lg shadow-lg flex flex-col items-center;
 }
 
 #about, #projects {
-    @apply bg-white p-8 rounded-lg shadow-lg;
+    @apply bg-white p-8 rounded-lg shadow-lg flex flex-col lg:flex-row items-center;
+}
+
+#about img, #projects .project img {
+    @apply w-48 h-48 rounded-full shadow-md mb-4 lg:mb-0 lg:mr-8;
 }
 
 #projects .project {
